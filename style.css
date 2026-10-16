@@ -147,3 +147,28 @@ h2{letter-spacing:-1px}
 .people h3{font-size:22px}
 }
 
+
+/* Engineering experience */
+.experience{background:var(--soft)}
+.case-card{max-width:860px;margin-top:40px;border-top:1px solid #cdd5de;padding-top:32px}
+.case-title{font-size:23px;margin:0 0 12px}
+.attribution{display:inline-block;font-size:13px;font-weight:700;color:var(--ink);background:var(--paper);border-left:3px solid #8aa85c;padding:6px 12px;margin:0 0 18px}
+.case-summary{color:var(--muted);max-width:720px;margin:0}
+.case-study{border:1px solid #cdd5de;background:var(--paper);max-width:860px;margin-top:28px}
+.case-study summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:19px 24px;font-size:15px;font-weight:700}
+.case-study summary::-webkit-details-marker{display:none}
+.case-study summary span{font-size:21px;color:#5f7286;transition:transform .2s}
+.case-study[open] summary span{transform:rotate(45deg)}
+.case-body{padding:4px 24px 30px;border-top:1px solid var(--line)}
+.case-body h3{font-size:18px;margin:26px 0 10px}
+.case-body p{margin:0 0 14px;color:var(--muted);font-size:15px;line-height:1.8}
+.case-body ul{padding-left:19px;color:var(--muted);font-size:15px;line-height:1.8;margin:0 0 14px}
+.case-body li{margin:8px 0}
+.case-note{font-size:12px;color:var(--muted);max-width:720px;line-height:1.7;margin:22px 0 30px}
+nav a{white-space:nowrap}
+@media(max-width:1000px){nav{gap:14px}}
+@media(max-width:720px){.case-study summary{padding:16px 18px}.case-body{padding:0 18px 24px}
+nav{gap:8px}
+nav a{white-space:nowrap;font-size:13px}}
+@media(max-width:360px){nav a{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.case-study summary span{transition:none}}
